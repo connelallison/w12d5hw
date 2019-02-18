@@ -12,4 +12,8 @@ public class Guitar extends AbstractInstrument {
     public String play() {
         return "Twang";
     }
+
+    public int getStringCount() {
+        return stringCount;
+    }
 }

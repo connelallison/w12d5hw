@@ -14,4 +14,16 @@ public class GuitarStrings implements ISell {
     public int calculateMarkup() {
         return sellingPrice - buyingPrice;
     }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getBuyingPrice() {
+        return buyingPrice;
+    }
+
+    public int getSellingPrice() {
+        return sellingPrice;
+    }
 }
